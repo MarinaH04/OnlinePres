@@ -1,0 +1,205 @@
+div.antet {
+background-image: url("index.jpg");
+width: 1340;
+height: 400px;
+margin-left: -8px;
+margin-top: -8px;
+}
+
+h1 {
+color: white;
+}
+div.titlu {
+background-color: #000033;
+width: 700px;
+text-align: center;
+margin-left: 320px;
+margin-top: -35px;
+}
+div.titlu2 {
+background-color: white;
+text-align: center;
+width: 430px;
+margin-left: 455px;
+}
+
+div.meniu {
+border-radius: 25px;
+font-size: 130%;
+width: 630px;
+height: 50px;
+margin-top:90px;
+margin-left:375px;
+margin-right:375px;
+color:white;
+text-align:center;
+}
+
+div.prez {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 100%;
+height: 600px;
+width: 1350px;
+font-style: normal;
+
+}
+
+div.a {
+margin-left:10px;
+margin-top:13px;
+font-size: 100%;
+height: 600px;
+width: 300px;
+}
+div.decani {
+border-radius: 25px;
+width:300px;
+height:227px;
+background-image: url("decani.jpg");
+}
+
+div.b {
+margin-left: 338px;
+margin-top: -599px;
+width: 300px;
+}
+
+div.conti {
+border-radius: 25px;
+width:300px;
+height:227px;
+background-image: url("conti.jpg");
+}
+
+div.c {
+margin-left: 669px;
+margin-top: -434px;
+width: 300px;
+}
+
+div.acad {
+border-radius: 25px;
+width:300px;
+height:227px;
+background-image: url("academician.jpg");
+}
+
+div.d {
+margin-left: 1000px;
+margin-top: -432px;
+width:300px;
+}
+
+div.med {
+border-radius: 25px;
+width: 300px;
+height:227px;
+background-image: url("medicina.jpg")
+}
+
+div.citestea {
+background-image: url("black.jpg");
+text-align: center;
+width: 200px;
+border-radius: 10px;
+margin-left: 10px;
+}
+
+div.citesteb {
+background-image: url("black.jpg");
+text-align: center;
+width: 200px;
+border-radius: 10px;
+margin-left: 10px;
+}
+
+div.citestec {
+background-image: url("black.jpg");
+text-align: center;
+width: 200px;
+border-radius: 10px;
+margin-left: 10px;
+margin-top: -3px;
+}
+
+div.citested {
+background-image: url("black.jpg");
+text-align: center;
+width: 200px;
+border-radius: 10px;
+margin-left: 10px;
+margin-top: -3px;
+}
+
+img.fac {
+    float: left;
+    margin: -20px 5px 0px 10px;
+}
+
+img.lb {
+    float: right;
+    clear: right;
+    margin: 0px 0px 0px 0px;
+}
+
+div.jos {
+margin-left:-8px;
+height:500px;
+background-color: #000033;
+}
+
+div.smart {
+margin-top: -265px;
+margin-left: 700px;
+width: 500px;
+}
+
+div.aiesec {
+margin-left: 10px;
+width: 200px;
+}
+
+div.solidus {
+margin-left: 230px;
+margin-top: -79px;
+width: 200px;
+color: white;
+}
+
+div.cse {
+width: 200px;
+color: white;
+margin-left: 450px;
+margin-top: -80px;
+color: white;
+}
+
+div.elsa {
+width: 200px;
+margin-left: 10px;
+color: white;
+margin-top: 70px;
+}
+
+div.asps {
+width: 200px;
+margin-left: 230px;
+margin-top: -80px;
+color: white;
+}
+
+div.osd {
+width: 200px;
+margin-left: 450px;
+margin-top: -65px;
+color: white;
+}
+
+div.f {
+background-color: #000000;
+height: 100px;
+text-align: center;
+margin-left: -8px;
+}
+

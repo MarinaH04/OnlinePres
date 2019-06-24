@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.bg {
+	/* The image used */
+    background-image: url("Pictures/index.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg h1, .bg h2 {
+	text-align: center;
+}
+.bg h1 span{
+	background-color: #000033;
+	color: #DEB887;
+}
+.bg h2 span {
+	background-color: #00008B;
+	color: #DEB887;
+}
+header {
+	position: absolute;
+	left: 0;
+	padding: 0 100px;
+	background-color: #000033;
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+
+header .logo {
+	color: #DEB887;
+	height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+header nav {
+	float: right;
+	
+}
+header nav ul {
+	display: flex;
+	margin: 0;
+	padding:0;
+	
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	opacity: 0.8;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+	text-decoration: none;
+	color:#fff;
+/*background: #2196f3;*/
+background: #191970;
+font-weight: bold;
+opacity: 1;
+}
+
+.menu-toggle {
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 991px){
+	header {
+		padding: 0 20px;
+	}
+	.menu-toggle{
+		display: block;
+	}
+	header nav {
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+	}
+	header nav.active {
+		left: 0;
+	}
+	header nav ul {
+		display: block;
+		text-align:center;
+	}
+	header nav ul li a {
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+}
